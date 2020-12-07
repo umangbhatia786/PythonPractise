@@ -7,5 +7,5 @@ nth(['a', 'b', 'c', 'd'], -1) #  'd'
 nth(['a', 'b', 'c', 'd'], 3)  # 'd'
 '''
 
-def nth(input_list, index):
-    return input_list[index]
+def nth(input_list, index_num):
+    return input_list[index_num]
