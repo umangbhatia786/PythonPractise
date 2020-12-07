@@ -11,10 +11,10 @@ class Animal:
 
 class Cat(Animal):
 	
-	def __init__(self, name, species, breed, toy):
+	def __init__(self, name, species, breed, toy_name):
 		super().__init__(name, species)
 		self.breed = breed
-		self.toy = toy
+		self.toy_name = toy_name
 
 
 	def play(self):
