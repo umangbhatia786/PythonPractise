@@ -1,5 +1,5 @@
 #Python code to get number of characters, spaces and lines in a txt file
-
+#New Comment Added
 def get_properties(file_path):
     '''Function to get text file attributes like lines, space count and char count'''
     with open(file_path) as f:
