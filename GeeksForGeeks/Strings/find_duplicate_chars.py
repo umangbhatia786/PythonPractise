@@ -2,7 +2,6 @@
 
 def get_duplicate_chars(input_str):
     '''Function that uses set comprehension to get duplicate chars'''
-    
     char_list = list(input_str)
     return {char for char in char_list if char_list.count(char) > 1}
 
